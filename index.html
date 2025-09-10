@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Foro Tekia | Consejo de Expertos en Investigación</title>
-  <meta name="description" content="Foro Tekia: comunidad de profesionales en investigación de mercados y opinión pública. Ética, colaboración y rigor metodológico, potenciados con innovación responsable.">
+  <meta name="description" content="Foro Tekia: comunidad de profesionales en investigación de mercados y opinión pública. Ética, colaboración y rigor metodológico con innovación responsable.">
 
   <!-- TailwindCSS desde CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -13,23 +13,17 @@
   <style>
     :root{
       --teal-700:#166a79; --teal-600:#1c7c8d; --teal-800:#0f5a68;
-      --ink:#0f172a; --muted:#556070; --soft:#f7fafb; --violet:#7c4dff;
+      --ink:#0f172a; --muted:#556070; --soft:#f7fafb;
     }
     .card{ background:#fff; border:1px solid #e6eef2; border-radius:1.25rem; box-shadow:0 12px 30px rgba(10,28,46,.08); }
     .glass{ background:rgba(255,255,255,.14); backdrop-filter: blur(6px); border:1px solid rgba(255,255,255,.35); }
     .btn-primary{ background:linear-gradient(180deg, var(--teal-600), var(--teal-700)); color:#fff; }
     .btn-primary:hover{ filter:brightness(.97); transform: translateY(1px); }
     .btn-ghost{ background:#fff; border:1px solid #dbe7ee; }
-
-    /* HERO a pantalla completa con imagen de fondo (ajusta la ruta si cambia el nombre) */
     .hero-full {
-      background-image: url('./imagenes_ft/hero.png');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
+      background-image: url('./imagenes_ft/hero.png'); /* ajusta la ruta/nombre si es distinto */
+      background-size: cover; background-position: center; background-repeat: no-repeat;
     }
-
-    /* Chips */
     .chip{display:inline-flex;align-items:center;gap:.5rem;padding:.3rem .6rem;border:1px solid #e7eef2;border-radius:.7rem;background:#fff}
     .tick{width:.85rem;height:.85rem;border-radius:9999px;background:linear-gradient(180deg,var(--teal-600),var(--teal-700))}
   </style>
@@ -60,15 +54,13 @@
     <div class="absolute inset-0 bg-black/15"></div>
     <div class="relative max-w-7xl mx-auto px-4">
       <div class="min-h-screen md:min-h-[78vh] py-16 md:py-24 grid place-items-center">
-        <div class="max-w-3xl w-full bg-[var(--teal-600)]/70 text-white rounded-2xl shadow-2xl
-                    backdrop-blur-sm border border-white/20 px-6 py-7 md:px-10 md:py-9">
+        <div class="max-w-3xl w-full bg-[var(--teal-600)]/70 text-white rounded-2xl shadow-2xl backdrop-blur-sm border border-white/20 px-6 py-7 md:px-10 md:py-9">
           <div class="chip"><span class="tick"></span>Consejo de expertos en investigación</div>
           <h1 class="mt-3 text-4xl md:text-5xl font-extrabold leading-tight">
             Ética, Colaboración y Rigor para investigar mejor.
           </h1>
           <p class="mt-3 text-white/90 text-lg">
-            Integramos <b>innovación con criterio humano</b>. La tecnología potencia nuestro trabajo,
-            pero no reemplaza nuestra sensibilidad.
+            Integramos <b>innovación con criterio humano</b>. La tecnología potencia nuestro trabajo, pero no reemplaza nuestra sensibilidad.
           </p>
           <div class="mt-6 flex flex-col sm:flex-row gap-3">
             <a href="#principios" class="px-5 py-3 rounded-xl bg-white text-[var(--teal-700)] font-medium hover:bg-white/90 transition">Nuestros principios</a>
@@ -85,8 +77,7 @@
       <div class="card p-7">
         <h2 class="text-2xl md:text-3xl font-extrabold">¿Quiénes somos?</h2>
         <p class="mt-3 text-[var(--muted)]">
-          Foro Tekia es una comunidad de especialistas que comparten conocimiento para elevar los
-          estándares de la investigación y reconstruir la confianza en el gremio.
+          Foro Tekia es una comunidad de especialistas que comparten conocimiento para elevar los estándares de la investigación y reconstruir la confianza en el gremio.
         </p>
         <ul class="mt-4 space-y-2 text-[var(--muted)]">
           <li>• Visión horizontal y trabajo colectivo.</li>
@@ -118,8 +109,7 @@
           </div>
           <h3 class="font-semibold text-lg">Ética</h3>
           <p class="mt-2 text-[var(--muted)]">
-            Actuamos con integridad, transparencia y responsabilidad. La ética no es un discurso:
-            guía cada estudio, cada vínculo y cada resultado.
+            Actuamos con integridad, transparencia y responsabilidad. La ética no es un discurso: guía cada estudio, cada vínculo y cada resultado.
           </p>
           <p class="mt-3 text-sm text-slate-500">La honestidad complementa la ética en lo cotidiano.</p>
         </article>
@@ -151,8 +141,7 @@
           </div>
           <h3 class="font-semibold text-lg">Compromiso gremial</h3>
           <p class="mt-2 text-[var(--muted)]">
-            Trabajamos por una industria más fuerte, respetada y unida. Nuestro compromiso es con el gremio,
-            el oficio y el futuro.
+            Trabajamos por una industria más fuerte, respetada y unida. Nuestro compromiso es con el gremio, el oficio y el futuro.
           </p>
           <p class="mt-3 text-sm text-slate-500">Inclusión y diversidad del gremio.</p>
         </article>
@@ -167,16 +156,13 @@
       <p class="text-center mt-2 text-[var(--muted)]">Rigor, colaboración e innovación con sentido humano.</p>
 
       <div class="mt-8 grid md:grid-cols-3 gap-6">
-        <!-- Rigor / Excelencia -->
         <article class="card p-6">
           <img src="./imagenes_ft/card-2.png" alt="Rigor metodológico" class="rounded-xl h-36 w-full object-cover mb-4">
           <h3 class="font-semibold">Excelencia profesional y rigor</h3>
           <p class="mt-2 text-[var(--muted)]">
-            Nos esforzamos por elevar los estándares de la práctica. Investigar bien no es un privilegio:
-            es nuestro compromiso.
+            Nos esforzamos por elevar los estándares de la práctica. Investigar bien no es un privilegio: es nuestro compromiso.
           </p>
         </article>
-        <!-- Colaboración -->
         <article class="card p-6">
           <img src="./imagenes_ft/card-1.png" alt="Colaboración" class="rounded-xl h-36 w-full object-cover mb-4">
           <h3 class="font-semibold">Colaboración</h3>
@@ -185,13 +171,11 @@
           </p>
           <p class="mt-3 text-sm text-slate-500">Generosidad intelectual como lógica de red.</p>
         </article>
-        <!-- Innovación con sentido humano -->
         <article class="card p-6">
           <img src="./imagenes_ft/card-3.png" alt="Innovación con criterio" class="rounded-xl h-36 w-full object-cover mb-4">
           <h3 class="font-semibold">Innovación con sentido humano</h3>
           <p class="mt-2 text-[var(--muted)]">
-            Integramos la innovación con criterio. La tecnología potencia nuestro trabajo,
-            pero no reemplaza nuestra sensibilidad.
+            Integramos la innovación con criterio. La tecnología potencia nuestro trabajo, pero no reemplaza nuestra sensibilidad.
           </p>
         </article>
       </div>
@@ -205,21 +189,18 @@
       <p class="text-center mt-2 opacity-90">Responsabilidad social, pensamiento crítico y formación continua.</p>
 
       <div class="mt-8 grid md:grid-cols-3 gap-6">
-        <!-- Responsabilidad social -->
         <article class="glass p-6 rounded-2xl">
           <h3 class="font-semibold">Responsabilidad social</h3>
           <p class="mt-2 opacity-90">
             Creemos que la investigación puede contribuir a un mundo más informado, justo y consciente.
           </p>
         </article>
-        <!-- Pensamiento crítico -->
         <article class="glass p-6 rounded-2xl">
           <h3 class="font-semibold">Pensamiento crítico</h3>
           <p class="mt-2 opacity-90">
             Reivindicamos el análisis riguroso para comprender la realidad y proponer soluciones con fundamento.
           </p>
         </article>
-        <!-- Curiosidad y aprendizaje continuo -->
         <article class="glass p-6 rounded-2xl">
           <h3 class="font-semibold">Curiosidad y aprendizaje continuo</h3>
           <p class="mt-2 opacity-90">
@@ -242,7 +223,7 @@
     </div>
   </section>
 
-  <!-- CONTACTO (sección resaltada en turquesa, formulario completo) -->
+  <!-- CONTACTO (turquesa, formulario completo) -->
   <section id="contacto" class="py-16 md:py-20" style="background: linear-gradient(180deg, var(--teal-700), var(--teal-600));">
     <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-start">
       <!-- Columna texto -->
@@ -322,7 +303,7 @@
     </div>
   </section>
 
-  <!-- FOOTER + atribución -->
+  <!-- FOOTER -->
   <footer class="py-10 text-white" style="background: linear-gradient(180deg, var(--teal-700), var(--teal-800));">
     <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-4 gap-8">
       <div>
@@ -359,7 +340,7 @@
         </p>
       </div>
     </div>
-    <!-- Atribución de Freepik (si usas imágenes de pressfoto) -->
+    <!-- Atribución (si usas imágenes de pressfoto en Freepik) -->
     <div class="text-center text-xs text-white/80 mt-6">
       Image by <a href="https://www.freepik.com/author/pressfoto" target="_blank" rel="noopener" class="underline text-white">pressfoto</a> on
       <a href="https://www.freepik.com" target="_blank" rel="noopener" class="underline text-white">Freepik</a>.
