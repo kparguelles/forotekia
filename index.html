@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Foro Tekia | Consejo de Expertos en Investigación</title>
-  <meta name="description" content="Foro Tekia: comunidad de profesionales en investigación de mercados y opinión pública. Ética, colaboración y rigor metodológico, potenciados con tecnología e IA responsable.">
+  <meta name="description" content="Foro Tekia: comunidad de profesionales en investigación de mercados y opinión pública. Ética, colaboración y rigor metodológico, potenciados con innovación responsable.">
 
   <!-- TailwindCSS desde CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -28,6 +28,9 @@
       background-position: center;
       background-repeat: no-repeat;
     }
+    /* Etiquetas vistosas */
+    .chip{display:inline-flex;align-items:center;gap:.5rem;padding:.3rem .6rem;border:1px solid #e7eef2;border-radius:.7rem;background:#fff}
+    .tick{width:.85rem;height:.85rem;border-radius:9999px;background:linear-gradient(180deg,var(--teal-600),var(--teal-700))}
   </style>
 </head>
 
@@ -46,7 +49,6 @@
         <a href="#principios" class="hover:text-[var(--teal-700)]">Principios</a>
         <a href="#trabajamos" class="hover:text-[var(--teal-700)]">Cómo trabajamos</a>
         <a href="#vision" class="hover:text-[var(--teal-700)]">Visión</a>
-        <a href="#servicios" class="hover:text-[var(--teal-700)]">Servicios</a>
         <a href="#contacto" class="px-4 py-2 rounded-xl btn-primary">Contacto</a>
       </nav>
     </div>
@@ -57,19 +59,18 @@
     <div class="absolute inset-0 bg-black/15"></div>
     <div class="relative max-w-7xl mx-auto px-4">
       <div class="min-h-screen md:min-h-[78vh] py-16 md:py-24 grid place-items-center">
-        <!-- Recuadro turquesa translúcido -->
         <div class="max-w-3xl w-full bg-[var(--teal-600)]/70 text-white rounded-2xl shadow-2xl
                     backdrop-blur-sm border border-white/20 px-6 py-7 md:px-10 md:py-9">
-          <p class="text-white/90 text-sm">Consejo de expertos en investigación de mercados y opinión pública</p>
-          <h1 class="mt-2 text-4xl md:text-5xl font-extrabold leading-tight">
+          <div class="chip"><span class="tick"></span>Consejo de expertos en investigación</div>
+          <h1 class="mt-3 text-4xl md:text-5xl font-extrabold leading-tight">
             Ética, Colaboración y Rigor para investigar mejor.
           </h1>
           <p class="mt-3 text-white/90 text-lg">
-            Integramos innovación con criterio humano. La tecnología potencia nuestro trabajo,
+            Integramos <b>innovación con criterio humano</b>. La tecnología potencia nuestro trabajo,
             pero no reemplaza nuestra sensibilidad.
           </p>
           <div class="mt-6 flex flex-col sm:flex-row gap-3">
-            <a href="#principios" class="px-5 py-3 rounded-xl bg-white text-[var(--teal-700)] font-medium hover:bg-white/90 transition">Conoce nuestros principios</a>
+            <a href="#principios" class="px-5 py-3 rounded-xl bg-white text-[var(--teal-700)] font-medium hover:bg-white/90 transition">Nuestros principios</a>
             <a href="#contacto" class="px-5 py-3 rounded-xl border border-white/60 text-white font-medium hover:bg-white/10 transition">Conversemos</a>
           </div>
         </div>
@@ -87,9 +88,9 @@
           estándares de la investigación y reconstruir la confianza en el gremio.
         </p>
         <ul class="mt-4 space-y-2 text-[var(--muted)]">
-          <li>• Consejo de expertos con visión horizontal.</li>
-          <li>• Red colaborativa que aprende y crea en conjunto.</li>
-          <li>• Ecosistema que combina rigor metodológico e innovación responsable.</li>
+          <li>• Visión horizontal y trabajo colectivo.</li>
+          <li>• Ecosistema que combina <b>rigor metodológico</b> e <b>innovación responsable</b>.</li>
+          <li>• Vocación de impacto ético y cultural.</li>
         </ul>
       </div>
       <div class="rounded-2xl overflow-hidden border border-slate-200">
@@ -98,7 +99,7 @@
     </div>
   </section>
 
-  <!-- PRINCIPIOS -->
+  <!-- NUESTROS PRINCIPIOS -->
   <section id="principios" class="py-12 md:py-16 bg-[var(--soft)]">
     <div class="max-w-6xl mx-auto px-4">
       <h2 class="text-3xl font-extrabold text-center">Nuestros Principios</h2>
@@ -112,22 +113,21 @@
             Actuamos con integridad, transparencia y responsabilidad. La ética no es un discurso:
             guía cada estudio, cada vínculo y cada resultado.
           </p>
-          <p class="mt-3 text-sm text-slate-500">Honestidad en lo cotidiano.</p>
+          <p class="mt-3 text-sm text-slate-500">La honestidad complementa la ética en lo cotidiano.</p>
         </article>
         <!-- Confianza -->
         <article class="card p-6">
           <h3 class="font-semibold text-lg">Confianza</h3>
           <p class="mt-2 text-[var(--muted)]">
-            La confianza es nuestro mayor activo. Cada dato, análisis y recomendación busca generar
-            credibilidad duradera.
+            La confianza es nuestro mayor activo. Cada dato, análisis y recomendación busca generar credibilidad duradera.
           </p>
         </article>
         <!-- Compromiso gremial -->
         <article class="card p-6">
           <h3 class="font-semibold text-lg">Compromiso gremial</h3>
           <p class="mt-2 text-[var(--muted)]">
-            Trabajamos por una industria más fuerte, respetada y unida. Nuestro compromiso es con
-            el oficio y con su futuro.
+            Trabajamos por una industria más fuerte, respetada y unida. Nuestro compromiso es con el gremio,
+            el oficio y el futuro.
           </p>
           <p class="mt-3 text-sm text-slate-500">Inclusión y diversidad del gremio.</p>
         </article>
@@ -142,13 +142,13 @@
       <p class="text-center mt-2 text-[var(--muted)]">Rigor, colaboración e innovación con sentido humano.</p>
 
       <div class="mt-8 grid md:grid-cols-3 gap-6">
-        <!-- Rigor / Excelencia profesional -->
+        <!-- Rigor / Excelencia -->
         <article class="card p-6">
           <img src="./imagenes_ft/card-2.png" alt="Rigor metodológico" class="rounded-xl h-36 w-full object-cover mb-4">
-          <h3 class="font-semibold">Rigor metodológico</h3>
+          <h3 class="font-semibold">Excelencia profesional y rigor</h3>
           <p class="mt-2 text-[var(--muted)]">
-            Nos esforzamos por elevar los estándares de nuestra práctica. Investigar bien no es un
-            privilegio: es nuestro compromiso.
+            Nos esforzamos por elevar los estándares de la práctica. Investigar bien no es un privilegio:
+            es nuestro compromiso.
           </p>
         </article>
         <!-- Colaboración -->
@@ -165,19 +165,19 @@
           <img src="./imagenes_ft/card-3.png" alt="Innovación con criterio" class="rounded-xl h-36 w-full object-cover mb-4">
           <h3 class="font-semibold">Innovación con sentido humano</h3>
           <p class="mt-2 text-[var(--muted)]">
-            Integramos la innovación con criterio. La tecnología potencia nuestro trabajo, pero
-            no reemplaza nuestra sensibilidad.
+            Integramos la innovación con criterio. La tecnología potencia nuestro trabajo,
+            pero no reemplaza nuestra sensibilidad.
           </p>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- VISIÓN DEL FUTURO -->
+  <!-- NUESTRA VISIÓN DEL FUTURO -->
   <section id="vision" class="py-12 md:py-16" style="background: linear-gradient(180deg, var(--teal-700), var(--teal-600));">
     <div class="max-w-6xl mx-auto px-4 text-white">
       <h2 class="text-3xl font-extrabold text-center">Nuestra visión del futuro</h2>
-      <p class="text-center mt-2 opacity-90">Responsabilidad social, pensamiento crítico y aprendizaje continuo.</p>
+      <p class="text-center mt-2 opacity-90">Responsabilidad social, pensamiento crítico y formación continua.</p>
 
       <div class="mt-8 grid md:grid-cols-3 gap-6">
         <!-- Responsabilidad social -->
@@ -191,7 +191,7 @@
         <article class="glass p-6 rounded-2xl">
           <h3 class="font-semibold">Pensamiento crítico</h3>
           <p class="mt-2 opacity-90">
-            Promovemos el análisis riguroso para comprender la realidad y proponer soluciones con fundamento.
+            Reivindicamos el análisis riguroso para comprender la realidad y proponer soluciones con fundamento.
           </p>
         </article>
         <!-- Curiosidad y aprendizaje continuo -->
@@ -205,48 +205,9 @@
     </div>
   </section>
 
-  <!-- SERVICIOS (muestra rápida) -->
-  <section id="servicios" class="py-12 md:py-16 bg-white">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-3xl font-extrabold text-center">Servicios para investigación</h2>
-      <p class="text-center mt-2 text-[var(--muted)]">Todo puede mejorar con IA, con data y con inteligencia compartida.</p>
-
-      <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <article class="card p-6">
-          <h3 class="font-semibold">Lluvias de ideas entre expertos</h3>
-          <p class="mt-2 text-[var(--muted)]">Sesiones colaborativas para desbloquear problemas complejos.</p>
-        </article>
-        <article class="card p-6">
-          <h3 class="font-semibold">Investigación aplicada y análisis estratégico</h3>
-          <p class="mt-2 text-[var(--muted)]">Diseño metodológico, análisis cuali-cuantitativo y storytelling de insights.</p>
-        </article>
-        <article class="card p-6">
-          <h3 class="font-semibold">Contenidos y productos propios</h3>
-          <p class="mt-2 text-[var(--muted)]">Modelos, certificaciones y guías para profesionalizar el gremio.</p>
-        </article>
-      </div>
-
-      <!-- Bloque destacado -->
-      <div class="mt-10 grid md:grid-cols-2 gap-6 items-stretch">
-        <div class="card p-7">
-          <h3 class="text-xl font-bold">Análisis de Datos Avanzado</h3>
-          <p class="mt-2 text-[var(--muted)]">
-            Machine Learning, modelos predictivos y visualización interactiva para convertir datos en decisiones.
-          </p>
-        </div>
-        <div class="card p-7 text-white grid place-items-center" style="background:linear-gradient(135deg, var(--teal-600), var(--teal-700));">
-          <div class="text-center">
-            <div class="text-5xl mb-2">📊</div>
-            <p class="font-semibold">Insights que accionan decisiones</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- CTA -->
   <section class="py-16 md:py-20 bg-white text-center">
-    <h2 class="text-3xl md:text-4xl font-extrabold">¿Listo para transformar tu investigación?</h2>
+    <h2 class="text-3xl md:text-4xl font-extrabold">¿Listo para transformar la investigación?</h2>
     <p class="mt-2 text-[var(--muted)]">
       Únete a la comunidad que dignifica el oficio con ética, colaboración y excelencia profesional.
     </p>
@@ -256,15 +217,14 @@
     </div>
   </section>
 
-  <!-- CONTACTO (sin endpoint aún) -->
+  <!-- CONTACTO (sin endpoint) -->
   <section id="contacto" class="py-14 md:py-20 bg-[var(--soft)]">
     <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-start">
       <div>
         <h2 class="text-3xl font-extrabold">Contáctanos</h2>
         <p class="mt-2 text-[var(--muted)]">
-          Cuéntanos tu desafío. Respondemos a profesionales de investigación del sector privado y de opinión pública.
+          Cuéntanos tu desafío. Respondemos a profesionales del sector privado y de opinión pública.
         </p>
-
         <div class="card p-6 mt-6">
           <h3 class="font-semibold">También puedes escribirnos</h3>
           <p class="mt-2 text-[var(--muted)]">
@@ -275,5 +235,94 @@
 
       <form class="card p-6 space-y-4" action="#" method="post">
         <div class="grid md:grid-cols-2 gap-4">
-          <div><label class="block text-sm font-medium">Nombre</label><i
+          <div><label class="block text-sm font-medium">Nombre</label><input name="nombre" required class="mt-1 w-full rounded-xl border-slate-200 p-3 focus:outline-none focus:ring-4 focus:ring-teal-200" placeholder="Tu nombre"></div>
+          <div><label class="block text-sm font-medium">Apellido</label><input name="apellido" class="mt-1 w-full rounded-xl border-slate-200 p-3 focus:outline-none focus:ring-4 focus:ring-teal-200" placeholder="Tu apellido"></div>
+          <div><label class="block text-sm font-medium">Correo</label><input type="email" name="email" required class="mt-1 w-full rounded-xl border-slate-200 p-3 focus:outline-none focus:ring-4 focus:ring-teal-200" placeholder="nombre@empresa.com"></div>
+          <div><label class="block text-sm font-medium">Teléfono</label><input type="tel" name="telefono" class="mt-1 w-full rounded-xl border-slate-200 p-3 focus:outline-none focus:ring-4 focus:ring-teal-200" placeholder="+52 55 0000 0000"></div>
+        </div>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div><label class="block text-sm font-medium">Empresa / Institución</label><input name="empresa" class="mt-1 w-full rounded-xl border-slate-200 p-3 focus:outline-none focus:ring-4 focus:ring-teal-200" placeholder="Nombre de la organización"></div>
+          <div><label class="block text-sm font-medium">Cargo</label><input name="cargo" class="mt-1 w-full rounded-xl border-slate-200 p-3 focus:outline-none focus:ring-4 focus:ring-teal-200" placeholder="Ej. Insights Manager"></div>
+        </div>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-sm font-medium">Tipo de estudio</label>
+            <select name="tipo_estudio" class="mt-1 w-full rounded-xl border-slate-200 p-3 focus:outline-none focus:ring-4 focus:ring-teal-200">
+              <option value="">Selecciona…</option>
+              <option>U&A / Segmentación</option>
+              <option>Concept / Producto / Pricing</option>
+              <option>Satisfacción / Experiencia (VoC)</option>
+              <option>Opinión Pública</option>
+              <option>Monitoreo de Medios/Redes</option>
+              <option>Otro</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-sm font-medium">Presupuesto estimado</label>
+            <select name="presupuesto" class="mt-1 w-full rounded-xl border-slate-200 p-3 focus:outline-none focus:ring-4 focus:ring-teal-200">
+              <option value="">Selecciona…</option>
+              <option>&lt; $5,000 USD</option>
+              <option>$5,000 – $15,000 USD</option>
+              <option>$15,000 – $40,000 USD</option>
+              <option>&gt; $40,000 USD</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <label class="block text-sm font-medium">Cuéntanos del proyecto</label>
+          <textarea name="mensaje" rows="5" class="mt-1 w-full rounded-xl border-slate-200 p-3 focus:outline-none focus:ring-4 focus:ring-teal-200" placeholder="Objetivo, audiencias, tiempos…"></textarea>
+        </div>
+        <div class="flex items-start gap-2">
+          <input id="consent" type="checkbox" required class="mt-1">
+          <label for="consent" class="text-sm text-[var(--muted)]">Acepto el tratamiento de mis datos para fines de contacto y propuestas.</label>
+        </div>
+        <button type="submit" class="w-full px-6 py-3 rounded-xl btn-primary">Enviar</button>
+      </form>
+    </div>
+  </section>
 
+  <!-- FOOTER + atribución -->
+  <footer class="py-10 text-white" style="background: linear-gradient(180deg, var(--teal-700), var(--teal-800));">
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-4 gap-8">
+      <div>
+        <div class="flex items-center gap-2">
+          <span class="inline-grid place-items-center w-9 h-9 rounded-xl bg-white text-[var(--teal-700)] font-bold">T</span>
+          <div>
+            <p class="font-semibold leading-tight">Foro Tekia</p>
+            <p class="text-xs text-white/80 -mt-0.5">Consejo de Expertos</p>
+          </div>
+        </div>
+        <p class="mt-3 text-white/90 text-sm">Transformando la investigación con ética, colaboración y excelencia profesional.</p>
+      </div>
+      <div>
+        <h4 class="font-semibold">Principios</h4>
+        <ul class="mt-2 space-y-1 text-white/90 text-sm">
+          <li>• Ética e integridad</li>
+          <li>• Confianza</li>
+          <li>• Compromiso gremial</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold">Cómo trabajamos</h4>
+        <ul class="mt-2 space-y-1 text-white/90 text-sm">
+          <li>• Rigor metodológico</li>
+          <li>• Colaboración</li>
+          <li>• Innovación con criterio</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold">Contacto</h4>
+        <p class="mt-2 text-white/90 text-sm">
+          <a class="underline" href="mailto:contacto@tuequipo.com">contacto@tuequipo.com</a><br/>
+          +52 (55) 1234-5678
+        </p>
+      </div>
+    </div>
+    <!-- Atribución de Freepik (si usas imágenes de pressfoto) -->
+    <div class="text-center text-xs text-white/80 mt-6">
+      Image by <a href="https://www.freepik.com/author/pressfoto" target="_blank" rel="noopener" class="underline text-white">pressfoto</a> on
+      <a href="https://www.freepik.com" target="_blank" rel="noopener" class="underline text-white">Freepik</a>.
+    </div>
+  </footer>
+</body>
+</html>
