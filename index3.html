@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Foro Tekia | Innovación y Colaboración en Investigación</title>
+  <meta name="description" content="Comunidad de expertos en investigación de mercados y opinión pública que combina IA, datos y trabajo colaborativo.">
+
+  <!-- TailwindCSS desde CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Paleta/utilidades -->
+  <style>
+    :root{
+      --teal-700:#166a79; --teal-600:#1c7c8d; --teal-800:#0f5a68;
+      --ink:#0f172a; --muted:#556070; --soft:#f7fafb; --violet:#7c4dff;
+    }
+    .hero-grad{ background: radial-gradient(1200px 500px at 80% -10%, rgba(255,255,255,.08), transparent),
+                         linear-gradient(180deg, var(--teal-700), var(--teal-600)); }
+    .card{ background:#fff; border:1px solid #e6eef2; border-radius:1.25rem; box-shadow:0 12px 30px rgba(10,28,46,.08); }
+    .glass{ background:rgba(255,255,255,.14); backdrop-filter: blur(6px); border:1px solid rgba(255,255,255,.35); }
+    .btn-primary{ background:linear-gradient(180deg, var(--teal-600), var(--teal-700)); color:#fff; }
+    .btn-primary:hover{ filter:brightness(.97); transform: translateY(1px); }
+    .btn-ghost{ background:#fff; border:1px solid #dbe7ee; }
+  </style>
+</head>
+
+<body class="text-[var(--ink)] bg-white">
+  <!-- NAV -->
+  <header class="sticky top-0 z-40 bg-white/85 backdrop-blur border-b border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#inicio" class="flex items-center gap-2">
+        <span class="inline-grid place-items-center w-9 h-9 rounded-xl bg-[var(--teal-600)] text-white font-bold">T</span>
+        <div>
+          <p class="font-semibold leading-tight">Foro Tekia</p>
+          <p class="text-xs text-slate-500 -mt-0.5">Consejo de Expertos</p>
+        </div>
+      </a>
+      <nav class="hidden md:flex items-center gap-7 text-sm">
+        <a href="#servicios" class="hover:text-[var(--teal-700)]">Servicios</a>
+        <a href="#colaboracion" class="hover:text-[var(--teal-700)]">Colaboración</a>
+        <a href="#tecnologia" class="hover:text-[var(--teal-700)]">Tecnología</a>
+        <a href="#contacto" class="px-4 py-2 rounded-xl btn-primary">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="inicio" class="relative hero-grad">
+    <div class="max-w-7xl mx-auto px-4 relative">
+      <div class="py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
+        <div class="text-white">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white text-[var(--ink)] border border-slate-200">
+            <span class="w-2.5 h-2.5 rounded-full bg-[var(--teal-600)]"></span>
+            Innovación y Colaboración en Investigación
+          </div>
+          <h1 class="mt-4 text-4xl md:text-5xl font-extrabold leading-tight">
+            Innovación y <span class="text-[var(--violet)]">Colaboración</span> en <br class="hidden md:block"/>Investigación
+          </h1>
+          <p class="mt-4 text-white/90 text-lg max-w-xl">
+            Somos tu consejo de expertos en investigación de mercados y opinión pública,
+            combinando inteligencia artificial con el poder del trabajo colaborativo.
+          </p>
+          <div class="mt-6 flex flex-col sm:flex-row gap-3">
+            <a href="#servicios" class="px-5 py-3 rounded-xl btn-ghost">Conoce Nuestros Servicios</a>
+            <a href="#video" class="px-5 py-3 rounded-xl btn-ghost">Ver Video Presentación</a>
+          </div>
+        </div>
+
+        <!-- Imagen local del hero -->
+        <!-- Reemplaza 'hero.png' por el nombre real de tu archivo si es distinto -->
+        <div class="rounded-2xl overflow-hidden border border-slate-200">
+          <img src="imagenes_ft/hero.png" alt="Equipo colaborando" class="w-full h-56 md:h-72 object-cover">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUIÉNES SOMOS -->
+  <section class="py-12 md:py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8">
+      <div class="card p-7">
+        <h2 class="text-2xl md:text-3xl font-extrabold">¿QUIÉNES SOMOS?</h2>
+        <ul class="mt-4 space-y-2 text-[var(--muted)]">
+          <li>• <b>Un consejo de expertos</b>.</li>
+          <li>• <b>Una red de colaboración</b>.</li>
+          <li>• <b>Un ecosistema de inteligencia</b>.</li>
+        </ul>
+      </div>
+      <div class="card p-7 bg-[var(--teal-700)] text-white">
+        <p>Foro Tekia es una comunidad de empresas, consultores y profesionales de la investigación de mercados, ciencia de datos, tecnología e innovación.</p>
+        <p class="mt-3">Nacimos con una visión clara: crear un espacio donde compartir, aprender y colaborar sea parte de la solución para nuestros clientes y para nosotros mismos.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS (3 tarjetas con imágenes locales) -->
+  <section id="servicios" class="py-10 md:py-14">
+    <div class="max-w-6xl mx-auto px-4">
+      <p class="text-center text-[var(--muted)]">Todo puede mejorar con IA, con data y con inteligencia compartida. Por eso ofrecemos:</p>
+
+      <div class="mt-7 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Tarjeta 1 -->
+        <!-- 'card-1.png' -->
+        <article class="card p-4">
+          <div class="mb-3 inline-grid place-items-center w-8 h-8 rounded-md bg-slate-50 border border-slate-200">✔</div>
+          <img src="imagenes_ft/card-1.png" alt="Sesión colaborativa con clientes" class="rounded-xl h-40 w-full object-cover">
+          <h3 class="mt-3 font-semibold">Lluvias de ideas entre expertos</h3>
+        </article>
+
+        <!-- Tarjeta 2 -->
+        <!-- 'card-2.png' -->
+        <article class="card p-4">
+          <div class="mb-3 inline-grid place-items-center w-8 h-8 rounded-md bg-slate-50 border border-slate-200">✔</div>
+          <img src="imagenes_ft/card-2.png" alt="Revisión de documentos y estrategia" class="rounded-xl h-40 w-full object-cover">
+          <h3 class="mt-3 font-semibold">Investigación aplicada y análisis estratégico</h3>
+        </article>
+
+        <!-- Tarjeta 3 -->
+        <!-- 'card-3.png' -->
+        <article class="card p-4">
+          <div class="mb-3 inline-grid place-items-center w-8 h-8 rounded-md bg-slate-50 border border-slate-200">✔</div>
+          <img src="imagenes_ft/card-3.png" alt="Trabajo en equipo y co-creación" class="rounded-xl h-40 w-full object-cover">
+          <h3 class="mt-3 font-semibold">Asesoría cruzada entre miembros</h3>
+        </article>
+      </div>
+
+      <!-- Bloque servicio destacado (sin imagen, diseño en gradiente) -->
+      <div class="mt-10 grid md:grid-cols-2 gap-6 items-stretch">
+        <div class="card p-7">
+          <h3 class="text-xl font-bold">Análisis de Datos Avanzado</h3>
+          <p class="mt-2 text-[var(--muted)]">Utilizamos algoritmos de machine learning y técnicas de análisis predictivo para convertir grandes volúmenes de datos en insights estratégicos.</p>
+          <ul class="mt-4 space-y-1 text-[var(--muted)]">
+            <li>• Machine Learning Avanzado</li>
+            <li>• Análisis Predictivo</li>
+            <li>• Visualización Interactiva</li>
+          </ul>
+        </div>
+        <div class="card p-7 text-white grid place-items-center" style="background:linear-gradient(135deg, var(--teal-600), var(--teal-700));">
+          <div class="text-center">
+            <div class="text-5xl mb-2">📊</div>
+            <p class="font-semibold">Insights que accionan decisiones</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- POR QUÉ FORO TEKIA -->
+  <section id="colaboracion" class="py-14 md:py-20" style="background: linear-gradient(180deg, var(--teal-700), var(--teal-600));">
+    <div class="max-w-6xl mx-auto px-4 text-white">
+      <h2 class="text-center text-3xl md:text-4xl font-extrabold">¿POR QUÉ FORO TEKIA?</h2>
+      <p class="mx-auto mt-5 max-w-3xl text-center glass rounded-xl px-5 py-3">Las industrias enfrentan bloqueos, incertidumbre económica y saturación de opciones.</p>
+
+      <div class="mt-10 grid md:grid-cols-2 gap-6 items-center">
+        <!-- 'porque.png' -->
+        <img src="imagenes_ft/porque.png" alt="Reunión con clientes" class="rounded-xl w-full h-64 object-cover border border-white/30">
+        <div class="glass rounded-xl p-6">
+          <p>Vivimos en un mundo hiperconectado y competitivo. La diferencia ya no está en tener las respuestas, sino en <b>cómo preguntas</b>, con quién piensas y cómo colaboras para construir soluciones.</p>
+          <ul class="mt-3 space-y-1">
+            <li>• Más colaborativo</li>
+            <li>• Más ético</li>
+            <li>• Más adaptativo</li>
+            <li>• Más humano (aunque nos encante la IA)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IA al servicio -->
+  <section id="tecnologia" class="py-14 md:py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 class="text-3xl font-extrabold">Inteligencia Artificial al Servicio de la Investigación</h2>
+        <p class="mt-3 text-[var(--muted)]">Integramos tecnologías de IA para potenciar procesos y ofrecer insights más profundos y precisos.</p>
+        <div class="mt-6 space-y-4">
+          <div class="card p-4"><h3 class="font-semibold">Procesamiento de Lenguaje Natural</h3><p class="text-[var(--muted)] text-sm">Análisis de texto y sentimientos para insights cualitativos.</p></div>
+          <div class="card p-4"><h3 class="font-semibold">Machine Learning Predictivo</h3><p class="text-[var(--muted)] text-sm">Modelos que anticipan tendencias y comportamientos.</p></div>
+          <div class="card p-4"><h3 class="font-semibold">Automatización Inteligente</h3><p class="text-[var(--muted)] text-sm">Reducción de tiempos operativos con calidad.</p></div>
+        </div>
+      </div>
+
+      <!-- Tira adicional (opcional) -->
+      <div class="grid grid-cols-3 gap-4">
+        <!-- Puedes duplicar alguna de tus imágenes si quieres llenar estos espacios -->
+        <img src="imagenes_ft/card-1.png" alt="Colaboración" class="rounded-xl h-36 w-full object-cover border border-slate-200">
+        <img src="imagenes_ft/card-2.png" alt="Estrategia" class="rounded-xl h-36 w-full object-cover border border-slate-200">
+        <img src="imagenes_ft/card-3.png" alt="Co-creación" class="rounded-xl h-36 w-full object-cover border border-slate-200">
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-16 md:py-20 bg-white text-center">
+    <h2 class="text-3xl md:text-4xl font-extrabold">¿Listo para Transformar tu Investigación?</h2>
+    <p class="mt-2 text-[var(--muted)]">Únete a la comunidad que está revolucionando la investigación de mercados con colaboración e IA.</p>
+    <div class="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
+      <a href="#contacto" class="px-6 py-3 rounded-xl btn-primary">Solicitar Consulta Gratuita</a>
+      <a href="#brochure" class="px-6 py-3 rounded-xl btn-ghost">Descargar Brochure</a>
+    </div>
+  </section>
+
+  <!-- CONTACTO (sin endpoint aún) -->
+  <section id="contacto" class="py-14 md:py-20 bg-[var(--soft)]">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 class="text-3xl font-extrabold">Contáctanos</h2>
+        <p class="mt-2 text-[var(--muted)]">Completa el formulario y te responderemos muy pronto.</p>
+
+        <div class="card p-6 mt-6">
+          <h3 class="font-semibold">También puedes escribirnos</h3>
+          <p class="mt-2 text-[var(--muted)]">
+            Correo directo: <a href="mailto:contacto@tuequipo.com" class="text-[var(--teal-700)] underline">contacto@tuequipo.com</a>
+          </p>
+        </div>
+      </div>
+
+      <form class="card p-6 space-y-4" action="#" method="post">
+        <div class="grid md:grid-cols-2 gap-4">
+          <div><label class="block text-sm font-medium">Nombre</label><input name="nombre" required class="mt-1 w-full rounded-xl border-slate-200 p-3 focus:outline-none focus:ring-4 focus:ring-teal-200" placeholder="Tu nombre"></div>
+          <div><label class="block text-sm font-medium">Apellido</label><input name="apellido" class="mt-1 w-full rounded-xl border-slate-200 p-3 focus:outline-none focus:ring-4 focus:ring-teal-200" placeholder="Tu apellido"></div>
+          <div><label class="block text-sm font-medium">Correo</label><input type="email" name="email" required class="mt-1 w-full rounded-xl border-slate-200 p-3 focus:outline-none focus:ring-4 focus:ring-teal-200" placeholder="nombre@empresa.com"></div>
+          <div><label class="block text-sm font-medium">Teléfono</label><input type="tel" name="telefono" class="mt-1 w-full rounded-xl border-slate-200 p-3 focus:outline-none focus:ring-4 focus:ring-teal-200" placeholder="+52 55 0000 0000"></div>
+        </div>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div><label class="block text-sm font-medium">Empresa / Institución</label><input name="empresa" class="mt-1 w-full rounded-xl border-slate-200 p-3 focus:outline-none focus:ring-4 focus:ring-teal-200" placeholder="Nombre de la organización"></div>
+          <div><label class="block text-sm font-medium">Cargo</label><input name="cargo" class="mt-1 w-full rounded-xl border-slate-200 p-3 focus:outline-none focus:ring-4 focus:ring-teal-200" placeholder="Ej. Insights Manager"></div>
+        </div>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-sm font-medium">Tipo de estudio</label>
+            <select name="tipo_estudio" class="mt-1 w-full rounded-xl border-slate-200 p-3 focus:outline-none focus:ring-4 focus:ring-teal-200">
+              <option value="">Selecciona…</option>
+              <option>U&A / Segmentación</option>
+              <option>Concept / Producto / Pricing</option>
+              <option>Satisfacción / Experiencia (VoC)</option>
+              <option>Encuesta de Opinión Pública</option>
+              <option>Monitoreo de Medios/Redes</option>
+              <option>Otro</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-sm font-medium">Presupuesto estimado</label>
+            <select name="presupuesto" class="mt-1 w-full rounded-xl border-slate-200 p-3 focus:outline-none focus:ring-4 focus:ring-teal-200">
+              <option value="">Selecciona…</option>
+              <option>&lt; $5,000 USD</option>
+              <option>$5,000 – $15,000 USD</option>
+              <option>$15,000 – $40,000 USD</option>
+              <option>&gt; $40,000 USD</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <label class="block text-sm font-medium">Cuéntanos del proyecto</label>
+          <textarea name="mensaje" rows="5" class="mt-1 w-full rounded-xl border-slate-200 p-3 focus:outline-none focus:ring-4 focus:ring-teal-200" placeholder="Objetivo, audiencias, tiempos…"></textarea>
+        </div>
+        <div class="flex items-start gap-2">
+          <input id="consent" type="checkbox" required class="mt-1">
+          <label for="consent" class="text-sm text-[var(--muted)]">Acepto el tratamiento de mis datos para fines de contacto y propuestas.</label>
+        </div>
+        <button type="submit" class="w-full px-6 py-3 rounded-xl btn-primary">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER + atribución -->
+  <footer class="py-10 text-white" style="background: linear-gradient(180deg, var(--teal-700), var(--teal-800));">
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-4 gap-8">
+      <div>
+        <div class="flex items-center gap-2">
+          <span class="inline-grid place-items-center w-9 h-9 rounded-xl bg-white text-[var(--teal-700)] font-bold">T</span>
+          <div>
+            <p class="font-semibold leading-tight">Foro Tekia</p>
+            <p class="text-xs text-white/80 -mt-0.5">Consejo de Expertos</p>
+          </div>
+        </div>
+        <p class="mt-3 text-white/90 text-sm">Transformando la investigación de mercados con colaboración e IA.</p>
+      </div>
+      <div>
+        <h4 class="font-semibold">Servicios</h4>
+        <ul class="mt-2 space-y-1 text-white/90 text-sm">
+          <li>• Análisis de Datos</li>
+          <li>• Investigación Colaborativa</li>
+          <li>• Estudios Digitales</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold">Recursos</h4>
+        <ul class="mt-2 space-y-1 text-white/90 text-sm">
+          <li>• Blog</li>
+          <li>• Casos de Éxito</li>
+          <li>• Certificaciones</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold">Contacto</h4>
+        <p class="mt-2 text-white/90 text-sm">
+          <a class="underline" href="mailto:contacto@tuequipo.com">contacto@tuequipo.com</a><br/>
+          +52 (55) 1234-5678
+        </p>
+      </div>
+    </div>
+    <!-- Atribución requerida por Freepik -->
+    <div class="text-center text-xs text-white/80 mt-6">
+      Image by <a href="https://www.freepik.com/author/pressfoto" target="_blank" rel="noopener" class="underline text-white">pressfoto</a> on <a href="https://www.freepik.com" target="_blank" rel="noopener" class="underline text-white">Freepik</a>.
+    </div>
+  </footer>
+</body>
+</html>
